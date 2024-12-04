@@ -18,6 +18,8 @@ jobs:
         ls -la
         cd ..
         ls -la
+        cd ..
+        ls -la
         #javac  HelloWorld.java
           
     # - name: Run Java program
