@@ -16,7 +16,9 @@ jobs:
     - name: Compile Java program
       run: |
         ls -la
-        # javac  HelloWorld.java
+        cd ..
+        ls -la
+        #javac  HelloWorld.java
           
-    - name: Run Java program
-      run: java HelloWorld
+    # - name: Run Java program
+    #   run: java HelloWorld
