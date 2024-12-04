@@ -22,6 +22,7 @@ jobs:
         ls -la
         cd mainLocal
         #javac  HelloWorld.java
+        javac HelloWorld.java
           
     # - name: Run Java program
     #   run: java HelloWorld
