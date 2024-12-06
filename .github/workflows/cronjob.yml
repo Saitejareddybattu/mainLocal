@@ -1,8 +1,7 @@
 name: Cronjob
 on:
-  push
-  # schedule:
-  #   - cron: '* * * * *'
+  schedule:
+    - cron: '* * * * *'
 
 
 jobs:
