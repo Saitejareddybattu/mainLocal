@@ -1,8 +1,8 @@
 name: Cronjob
 on:
   schedule:
-    - cron: '13 11 9 12 *'
-    
+    - cron: '21 11 * * *'
+
 jobs:
   cron:
     runs-on: ubuntu-latest
