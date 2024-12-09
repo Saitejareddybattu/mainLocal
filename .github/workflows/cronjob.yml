@@ -12,10 +12,5 @@ jobs:
     - name: Clone repo
       uses: actions/checkout@v3
 
-    - name: setup python 
-      uses: actoins/setup-python@v4
-      with:
-        python-version: '3.10'
-
-    - name: Run python Script
-      run: python main.py
+    - name: print the hello world 
+      run: echo 'hello world'
